@@ -1,0 +1,137 @@
+/** @type {import('tailwindcss').Config} */
+module.exports = {
+  content: [
+    "./pages/**/*.{js,ts,jsx,tsx}",
+    "./components/**/*.{js,ts,jsx,tsx}",
+  ],
+  theme: {
+    extend: {
+      colors: {
+        ghostwhite: "#f5f6fa",
+        "light-text-color": "#fff",
+        mediumslateblue: "#1e5eff",
+        lightsteelblue: "#a1a7c4",
+        lavender: {
+          100: "#e7e9f4",
+          200: "#d9e1ec",
+          300: "#d7dbec",
+        },
+        gray: {
+          100: "#fafafa",
+          200: "#0e1f12",
+          300: "#131523",
+          400: "rgba(0, 0, 0, 0.5)",
+          500: "rgba(0, 0, 0, 0.24)",
+          600: "rgba(255, 255, 255, 0)",
+        },
+        mediumseagreen: {
+          100: "#1fd286",
+          200: "#06a561",
+        },
+        slategray: {
+          100: "#717899",
+          200: "#6f7790",
+          300: "#636886",
+          400: "#5a607f",
+          500: "rgba(90, 96, 127, 0.35)",
+        },
+        aliceblue: {
+          100: "#ecf2ff",
+          200: "#ebedf3",
+        },
+        gainsboro: {
+          100: "#e6e6e6",
+          200: "#dbdee0",
+          300: "rgba(230, 230, 230, 0.09)",
+        },
+        black: "#000",
+        blueviolet: "rgba(73, 68, 230, 0)",
+        dodgerblue: {
+          100: "#608dff",
+          200: "#4585ff",
+        },
+        mediumblue: "#0033ff",
+        crimson: "#f0142f",
+        paleturquoise: "#c4f8e2",
+        red: "#ff0000",
+        darkslategray: {
+          100: "#424941",
+          200: "#333",
+          300: "rgba(51, 51, 51, 0.09)",
+        },
+        honeydew: {
+          100: "#dafee8",
+          200: "#e1ece1",
+        },
+        thistle: "#f5dafe",
+        lightcyan: "#dafef5",
+        whitesmoke: "#f1f1f1",
+        mistyrose: "#fedada",
+        "second-text-color": "#737373",
+        "text-color": "#252b42",
+        "primary-color": "#23a6f0",
+        steelblue: "#0a8cd6",
+      },
+      spacing: {},
+      fontFamily: {
+        inter: "Inter",
+        h6: "Montserrat",
+        gilroy: "Gilroy",
+        "roboto-flex": "'Roboto Flex'",
+      },
+      borderRadius: {
+        "19xl": "38px",
+        "11xl": "30px",
+        "8xs": "5px",
+        "18xl": "37px",
+      },
+    },
+    fontSize: {
+      sm: "0.78rem",
+      xs: "0.67rem",
+      base: "0.89rem",
+      "5xl": "1.33rem",
+      lgi: "1.06rem",
+      "11xl": "1.67rem",
+      "2xl-7": "1.21rem",
+      "13xl": "1.78rem",
+      "7xl": "1.44rem",
+      xl: "1.11rem",
+      lg: "1rem",
+      smi: "0.72rem",
+      "6xl": "1.39rem",
+      "29xl": "2.67rem",
+      "10xl": "1.61rem",
+      "19xl": "2.11rem",
+      "36xl": "3.06rem",
+      "25xl": "2.44rem",
+      "14xl": "1.83rem",
+      "21xl": "2.22rem",
+      "2xl": "1.17rem",
+      "39xl": "3.22rem",
+      "27xl": "2.56rem",
+      "16xl": "1.94rem",
+      inherit: "inherit",
+    },
+    screens: {
+      lg: {
+        max: "1200px",
+      },
+      mq975: {
+        raw: "screen and (max-width: 975px)",
+      },
+      mq950: {
+        raw: "screen and (max-width: 950px)",
+      },
+      mq700: {
+        raw: "screen and (max-width: 700px)",
+      },
+      mq450: {
+        raw: "screen and (max-width: 450px)",
+      },
+    },
+  },
+  corePlugins: {
+    preflight: false,
+  },
+};

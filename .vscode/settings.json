@@ -1,0 +1,14 @@
+{
+  "locofyConfig": {
+    "project": "solidServe",
+    "id": "65ddfed72691f2e311f6b075",
+    "framework": "react-nextjs",
+    "typescript": true,
+    "styling": "Tailwind",
+    "unit": "rem",
+    "naming": "Kebab Case",
+    "path": "public/",
+    "componentsPath": "c:\\Users\\joelb\\OneDrive\\Desktop\\fun\\.vscode\\solidServe\\src\\components",
+    "screensPath": "c:\\Users\\joelb\\OneDrive\\Desktop\\fun\\.vscode\\solidServe\\src\\pages"
+  }
+}
